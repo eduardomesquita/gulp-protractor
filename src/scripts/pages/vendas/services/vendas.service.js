@@ -6,19 +6,17 @@
         .module('sandbox-app')
         .factory('vendasService', [vendasService]);
 
-    function vendasService($scope) {
+    function vendasService() {
 
         var vendas = [];
-
 
         var getVendas = function(){
             return vendas;
         };
-
 
         return {
             getVendas: getVendas
         };
     }
 
-})()
+})();
