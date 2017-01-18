@@ -7,7 +7,6 @@
         'ngAnimate',
         'ngMaterial',
         'ngMdIcons',
-        'md.data.table',
         'pascalprecht.translate',
         'angularMoment',
         'toaster',

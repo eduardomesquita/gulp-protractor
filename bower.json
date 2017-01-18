@@ -1,0 +1,52 @@
+{
+  "name": "gulp-protractor",
+  "description": "Exemplo de Gulp com Protractor",
+  "main": "",
+  "authors": [
+    "Eduardo Mesquita"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/eduardomesquita/gulp-protractor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^v1.6.0",
+    "angular-cache-buster": "^0.4.3",
+    "angular-sanitize": "^v1.6.0",
+    "angular-ui-router": "^0.2.15",
+    "angular-material": "^v1.0.5",
+    "angular-i18n": "^v1.4.8",
+    "angular-translate": "^2.13.1",
+    "angular-translate-loader-partial": "^2.13.1",
+    "angular-material-icons": "^v0.6.0",
+    "angular-moment": "^0.10.3",
+    "AngularJS-Toaster": "^2.1.0",
+    "angular-input-masks": "^2.5.0"
+  },
+  "overrides": {
+    "angular-br-filters": {
+      "main": [
+        "./release/angular-br-filters.min.js"
+      ]
+    },
+    "angular-material-icons": {
+      "main": [
+        "angular-material-icons.min.js"
+      ]
+    },
+    "angular-i18n": {
+      "main": [
+        "angular-locale_pt-br.js"
+      ]
+    }
+  },
+  "resolutions": {
+    "angular": "1.4.8",
+    "angular-sanitize": "1.4.9"
+  }
+}
