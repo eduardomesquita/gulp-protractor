@@ -1,0 +1,9 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+node_modules/
+bower_components/
+.tmp/
+dits/

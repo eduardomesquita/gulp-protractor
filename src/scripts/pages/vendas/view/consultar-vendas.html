@@ -1,0 +1,25 @@
+<div layout="column" ng-show="vendas.length > 0">
+    <md-conent flex>
+        <md-table-container>
+            <table md-table>
+                <thead md-head>
+                    <tr md-row>
+                        <th md-column class="texto-centro">{{'nome'  | translate | uppercase}}</th>
+                        <th md-column class="texto-centro">{{'preco' | translate | uppercase}}</th>
+                    </tr>
+                </thead>
+
+                <tbody md-body>
+                    <tr md-row ng-repeat="item in vendas">
+                        <td md-cell class="texto-centro-corpo">
+                            <label>{{item.nome}}</label>
+                        </td>
+                        <td md-cell class="texto-centro-corpo">
+                             <label>{{item.preco | currency }}</label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </md-table-container>
+    </md-conent>
+</div>
